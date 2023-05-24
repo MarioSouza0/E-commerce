@@ -1,0 +1,151 @@
+.flex2 {
+    flex-direction: column;
+}
+
+.flex {
+    justify-content: center;
+}
+
+header {
+    height: auto;
+}
+
+main {
+    width: 100vw;
+    margin: 10rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos-produto {
+    min-width: 300px;
+    width: 60%;
+    justify-content: unset;
+    gap: 2rem;
+}
+
+.detalhes-produto {
+    min-width: 300px;
+    width: 20%;
+    max-width: 500px;
+}
+
+.miniaturas {
+    max-width: 10%;
+    
+}
+
+.foto-grande {
+    min-width: 300px;
+    width: 50%;
+    min-height: 300px;
+    height: 450px;
+    border: 1px solid var(--cinza);
+}
+
+/* REVISAR O OBJECT FIT*/
+
+.foto-grande img, .miniatura img  {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.miniatura {
+    min-width: 100px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid var(--cinza);
+    margin-bottom: 2rem;
+}
+
+.caixa-detalhes h1 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.caixa-detalhes p {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+.caixa-detalhes p:last-child {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.caixa-detalhes2 select, button {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+.caixa-detalhes2 button {
+    margin-top: 1rem;
+    border: none;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3);
+    background-color: var(--branco);
+}
+
+.caixa-detalhes2 button:hover {
+    cursor: pointer;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

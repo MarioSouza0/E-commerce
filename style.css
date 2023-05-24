@@ -50,7 +50,6 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
 }
 
 /* HEADER */
@@ -65,6 +64,7 @@ nav {
     width: 100%;
     height: 50px;
     padding: 0 5rem;
+    align-items: center;
 }
 
 .caixa-logo {
@@ -77,16 +77,20 @@ nav {
     width: 33.3%;
     justify-content: center;
     gap: 4rem;
+    align-items: center;
 }
 
 .icones {
     width: 33.3%;
-    justify-content: flex-end;
-    gap: 1.5rem;
+    text-align: end;
+}
+
+.icones a:first-child{
+    padding-right: 0.5rem;
 }
 
 .icones img {
-    width: 3%;
+    width: 5%;
 }
 
 .banner {
@@ -154,38 +158,87 @@ main {
 }
 
 .produtos {
-    width: 100%;
+    width: 1300px;
     height: 1000px;
     padding: 0 3rem;
-    margin-top: 3rem;
+    margin: 0 auto;
+    margin: 3rem auto;
 }
 
 .produtos-item {
-    width: 30%;
+    width: 400px;
     height: 300px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.produtos-item div:first-child {
+    border: 1px solid var(--cinza);
 }
 
 .produtos-item img {
     width: 50%;
 }
 
+.produtos-item p {
+    color: var(--preto);
+}
+
+/* FOOTER */
+
 footer {
     max-height: 500px;
     background-color: var(--cinza);
-    padding: ;
-    justify-content: baseline;
-}
-
-footer img {
-    width: 10%;
+    align-items: flex-start;
+    padding: 3rem;
 }
 
 .footer-box{
-    width: 33%;
+    width: 25%;
     height: 50%;
-    border: 1px solid red;
 }
 
-.footer-box:nth-child(1) h2{
+footer .caixa-logo {
+    width: 100%;
+    text-align: right;
     font-size: 1.9rem;
 }
+
+.menu-rodape ul{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.pagamento {
+    align-items: center;
+    text-align: left;
+}
+
+.pagamento h3 {
+    margin-bottom: 1rem;
+}
+
+.pagamento div {
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pagamento img {
+    width: 7%;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: var(--preto);
+    margin: 1.5rem 0;
+    opacity: 0.5;
+}
+
+.copy {
+    font-size: 1rem;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+

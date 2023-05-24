@@ -1,0 +1,80 @@
+header {
+    height: auto;
+}
+
+main {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.meu-carrinho, .resumo-compra {
+    width: 60%;
+    height: auto;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.meu-carrinho h2, .resumo-compra h2 {
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.produto {
+    border: 1px solid var(--cinza);
+    border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.caixa-imagem {
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--cinza);
+}
+
+.caixa-imagem img {
+    object-fit: cover;
+}
+
+.informacoes-tenis  h3{
+    width: 287px;
+}
+
+.informacoes-tenis p, .caixa-preco p, .preco p{
+   color: var(--preto);
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+.informacoes-tenis span{
+    font-weight: 400;
+}
+
+.preco p {
+    font-size: 1.5rem;
+}
+
+.resumo-compra {
+    text-align: center;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    background-color: var(--preto);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
